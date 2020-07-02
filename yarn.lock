@@ -1662,6 +1662,11 @@ clone-deep@^4.0.1:
     kind-of "^6.0.2"
     shallow-clone "^3.0.0"
 
+clsx@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
+
 coa@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/coa/-/coa-2.0.2.tgz#43f6c21151b4ef2bf57187db0d73de229e3e7ec3"
@@ -4209,6 +4214,13 @@ randomfill@^1.0.3:
   dependencies:
     randombytes "^2.0.5"
     safe-buffer "^5.1.0"
+
+react-data-grid@^7.0.0-canary.17:
+  version "7.0.0-canary.17"
+  resolved "https://registry.yarnpkg.com/react-data-grid/-/react-data-grid-7.0.0-canary.17.tgz#6460a34d4a9e696e55a8321124d4e3990fe02f41"
+  integrity sha512-k1/WHOWxZCd5+Uo/NWUtZpr7CC9SxXXnxa6qmrelFf/f620c4VrFoZYsADK0iSkmI2uh35pUijZCpC1KMtJ/9g==
+  dependencies:
+    clsx "^1.1.0"
 
 react-dom@16.13.1:
   version "16.13.1"
